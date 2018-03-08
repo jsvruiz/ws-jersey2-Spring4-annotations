@@ -1,5 +1,5 @@
 
-package com.underdog.jersey.spring.impl.config;
+package com.ws.app.config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -33,7 +33,6 @@ public class AppInitializer implements WebApplicationInitializer {
         context = new AnnotationConfigWebApplicationContext();
         context.getEnvironment().setActiveProfiles("production");
         context.register(configClasses);
-//        context.scan(configClasses.getPackage().getName());
         return context;
     }
 }

@@ -1,0 +1,130 @@
+{
+	"info": {
+		"name": "ws-jersey2-spring4-annotations",
+		"_postman_id": "74a133b3-4f67-33fa-4b25-51696cc755d9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/ws-jersey-spring-annotation/rest/user/read",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/ws-jersey-spring-annotation/rest/user/read",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ws-jersey-spring-annotation",
+						"rest",
+						"user",
+						"read"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ws-jersey-spring-annotation/rest/user/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" : 99,\n\t\"user\" : \"Super user\",\n\t\"password\" : \"123\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/ws-jersey-spring-annotation/rest/user/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ws-jersey-spring-annotation",
+						"rest",
+						"user",
+						"create"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ws-jersey-spring-annotation/rest/user/create",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" : 1,\n\t\"user\" : \"user updated\",\n\t\"password\" : \"456\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/ws-jersey-spring-annotation/rest/user/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ws-jersey-spring-annotation",
+						"rest",
+						"user",
+						"update"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/ws-jersey-spring-annotation/rest/user/create",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" : 2,\n\t\"user\" : \"user 1\",\n\t\"password\" : \"user1\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/ws-jersey-spring-annotation/rest/user/delete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ws-jersey-spring-annotation",
+						"rest",
+						"user",
+						"delete"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

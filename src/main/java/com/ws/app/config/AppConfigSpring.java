@@ -1,5 +1,5 @@
 
-package com.underdog.jersey.spring.impl.config;
+package com.ws.app.config;
 
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.context.annotation.Bean;
@@ -18,12 +18,12 @@ import com.ws.header.HeaderService;
         "com.ws.service.impl",
         "com.ws.service",
         "com.ws.header",
-        "com.ws.rest"
+        "com.ws.rest",
+        "com.ws.response",
 })
 public class AppConfigSpring {
     
     @Configuration
-    //@Profile("production")
     static class HeaderServiceConfiguration {
         
         @Bean

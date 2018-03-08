@@ -1,5 +1,5 @@
 
-package com.underdog.jersey.spring.impl.config;
+package com.ws.app.config;
 
 import javax.servlet.ServletContext;
 import javax.ws.rs.ApplicationPath;
