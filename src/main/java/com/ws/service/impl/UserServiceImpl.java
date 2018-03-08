@@ -23,7 +23,7 @@ public class UserServiceImpl implements UserService {
 	
 	/**
 	 * 
-	 * We simulate create a user and We add the new user to list : generateDummyData();
+	 * We simulate to create a user and We add the new user to list : generateDummyData();
 	 * 
 	 * **/
 	@Override
@@ -36,7 +36,7 @@ public class UserServiceImpl implements UserService {
 
 	/**
 	 * 
-	 * We simulate update a user of list : generateDummyData();
+	 * We simulate to update a user of list : generateDummyData();
 	 * 
 	 * **/
 	@Override
@@ -57,7 +57,7 @@ public class UserServiceImpl implements UserService {
 	
 	/**
 	 * 
-	 * We simulate delete a user of list : generateDummyData();
+	 * We simulate to delete a user of list : generateDummyData();
 	 * 
 	 * **/
 	@Override
