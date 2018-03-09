@@ -15,7 +15,7 @@ we create web services with the help of:
 * [Eclipse  Oxygen.2 Release (4.7.2)](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/oxygen/R2/eclipse-inst-mac64.tar.gz/) 
 * [postman 5.5.3](https://www.getpostman.com/)
 
-##Code example
+##Example code
 
 The Rest methods to implement are very easy, you only need add next annotations :
 
