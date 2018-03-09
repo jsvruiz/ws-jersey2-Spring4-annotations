@@ -15,6 +15,30 @@ we create web services with the help of:
 * [Eclipse  Oxygen.2 Release (4.7.2)](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/oxygen/R2/eclipse-inst-mac64.tar.gz/) 
 * [postman 5.5.3](https://www.getpostman.com/)
 
+##Code example
+
+The Rest methods to implement are very easy, you only need add next annotations :
+
+```
+@GET , @POST, @PUT , @DELETE
+```
+
+some path if you require it
+
+after, You need indique if you consume for example a JSON and if your response will be a JSON or XML
+
+```
+
+@POST 
+@Path("/create")
+@Consumes({ MediaType.APPLICATION_JSON })
+@Produces({ MediaType.APPLICATION_XML })
+public Response myMethod(Object o ) {
+	
+}
+
+```
+
 
 ## Running the tests
 
