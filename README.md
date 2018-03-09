@@ -55,7 +55,7 @@ Testing endpoints:
 
 Response:
 
-```
+```json
 {
     "message": "ok",
     "error": false,
@@ -105,7 +105,7 @@ Response:
 
 Response:
 
-```
+```json
 
 {
     "message": "ok",
@@ -163,7 +163,7 @@ Response:
 
 Response:
 
-```
+```json
 
 {
     "message": "ok",
@@ -221,7 +221,7 @@ Response:
 
 Response:
 
-```
+```json
 
 {
     "message": "ok",
