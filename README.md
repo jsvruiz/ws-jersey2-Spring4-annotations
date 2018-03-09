@@ -13,7 +13,7 @@ we create web services with the help of:
 * [Java 1.8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html/) 
 * [Tomcat 8.5.28 ](https://tomcat.apache.org/download-80.cgi#8.5.28/) 
 * [Eclipse  Oxygen.2 Release (4.7.2)](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/oxygen/R2/eclipse-inst-mac64.tar.gz/) 
-* [postman Versión 5.5.3](https://www.getpostman.com/)
+* [postman 5.5.3](https://www.getpostman.com/)
 
 
 ## Running the tests
