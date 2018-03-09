@@ -49,7 +49,7 @@ Testing endpoints:
 
 @GET
 
-```
+```json
  url : http://localhost:8080/ws-jersey-spring-annotation/rest/user/read
 ```
 
@@ -91,7 +91,7 @@ Response:
 
 @POST
 
-```
+```json
  URL: http://localhost:8080/ws-jersey-spring-annotation/rest/user/create
  HEADERS: Content-Type: application/json
  BODY RAW:  
@@ -149,7 +149,7 @@ Response:
 
 @UPDATE
 
-```
+```json
  URL: http://localhost:8080/ws-jersey-spring-annotation/rest/user/update
  HEADERS: Content-Type: application/json
  BODY RAW:  
@@ -207,7 +207,7 @@ Response:
 
 @UPDATE
 
-```
+```json
  URL: http://localhost:8080/ws-jersey-spring-annotation/rest/user/update
  HEADERS: Content-Type: application/json
  BODY RAW:  
@@ -260,7 +260,7 @@ Response:
 
 @DELETE
 
-```
+```json
  URL: http://localhost:8080/ws-jersey-spring-annotation/rest/user/delete
  HEADERS: Content-Type: application/json
  BODY RAW:  
@@ -274,7 +274,7 @@ Response:
 
 Response:
 
-```
+```json
 
 {
     "message": "ok",
