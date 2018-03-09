@@ -27,8 +27,7 @@ some path if you require it
 
 after, You need indique if you consume for example a JSON and if your response will be a JSON or XML
 
-```
-
+```java
 @POST 
 @Path("/create")
 @Consumes({ MediaType.APPLICATION_JSON })
